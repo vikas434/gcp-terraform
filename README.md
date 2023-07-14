@@ -100,27 +100,27 @@ Learn while you work on Terraform in Google Cloud Platform (GCP)
 High-Level System Architecture Diagram:
 
 +---------------------------------------------------+
-|                   Load Balancer                    |
+| Load Balancer |
 +----------------------|----------------------------+
-                       |
+|
 +----------------------v----------------------------+
-|            Kubernetes Cluster                      |
-|         (Google Kubernetes Engine)                 |
+| Kubernetes Cluster |
+| (Google Kubernetes Engine) |
 +----------------------|----------------------------+
-                       |
+|
 +----------------------v----------------------------+
-|           Backend Services                          |
-|       (Java Services with REST APIs)               |
+| Backend Services |
+| (Java Services with REST APIs) |
 +----------------------|----------------------------+
-                       |
+|
 +----------------------v----------------------------+
-|           Database and Cache                        |
-|          (CloudSQL PostgreSQL, Redis)             |
+| Database and Cache |
+| (CloudSQL PostgreSQL, Redis) |
 +----------------------|----------------------------+
-                       |
+|
 +----------------------v----------------------------+
-|           Monitoring and Analytics                  |
-|        (Google Cloud Monitoring, BigQuery)         |
+| Monitoring and Analytics |
+| (Google Cloud Monitoring, BigQuery) |
 +---------------------------------------------------+
 
 The system architecture components for the mobile application backend, designed to measure user health, are as follows:
